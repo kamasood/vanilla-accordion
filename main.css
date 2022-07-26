@@ -4,6 +4,11 @@ body {
   place-items: center;
 }
 
+#app {
+  width: 100%;
+  max-width: 800px;
+}
+
 .accordion {
   background-color: #eee;
   color: #444;
@@ -14,7 +19,6 @@ body {
   text-align: left;
   border: none;
   font-size: 15px;
-  transition: 0.4s;
 }
 
 .active, .accordion:hover {
@@ -26,4 +30,5 @@ body {
   display: none;
   background-color: white;
   overflow: hidden;
+  transition: 0.4s;
 }
